@@ -42,8 +42,6 @@ LOCAL_AAPT_FLAGS += --rename-manifest-package org.lineageos.snap
 LOCAL_RENDERSCRIPT_TARGET_API := 23
 LOCAL_JACK_ENABLED := disabled
 
-LOCAL_OVERRIDES_PACKAGES := Camera2
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 # If this is an unbundled build (to install separately) then include
